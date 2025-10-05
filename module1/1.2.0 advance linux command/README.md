@@ -260,6 +260,12 @@ id johndoe
 ```
 The command displays the user ID (UID), group ID (GID), and the groups to which the user belongs.
 
+## See the members of a group
+To see the members of a specific group, you can use the `getent` command followed by the group name. For example, to see the members of the `developers` group, you can use:
+```bash
+  getent group developers
+```
+
 ![Check Group Memberships](assets/id-johndoe.png)
 ## Delete a User
 To delete a user in Linux, you can use the `userdel` command. The basic syntax is:
